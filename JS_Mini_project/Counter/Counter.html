@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    main {
+        text-align: center;
+        padding: 200px 0;
+    }
+
+    .heading h1 {
+        font-size: 5rem;
+        font-weight: lighter;
+    }
+
+    #value {
+        font-size: 7rem;
+    }
+
+    .all-btn {
+        margin: 2rem 0;
+    }
+
+    .btn {
+        background-color: transparent;
+        border: 2px solid #000;
+        font-size: 1rem;
+        padding: 15px 30px;
+        margin: 0 20px;
+        cursor: pointer;
+        border-radius: 10px;
+        letter-spacing: 6px;
+    }
+
+    .btn:hover {
+        background-color: #000;
+        color: #fff;
+    }
+</style>
+
+<body>
+    <main>
+        <div class="heading">
+            <h1>Counter</h1>
+        </div>
+        <span id="value">0</span>
+        <div class="all-btn">
+            <button class="btn increse">INCRESE</button>
+            <button class="btn reset">RESET</button>
+            <button class="btn decrese">DECRESE</button>
+        </div>
+    </main>
+    <script src="Counter.js"></script>
+</body>
+
+</html>
